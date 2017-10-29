@@ -138,6 +138,13 @@
 		    <version>1.4.196</version>
 		    <scope>test</scope>
 		</dependency>
+		<!-- servlet -->
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.0.1</version>
+		    <scope>provided</scope>
+		</dependency>
   </dependencies>
   <build>
     <finalName>sugarbox</finalName>
