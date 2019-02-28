@@ -1,0 +1,18 @@
+{
+  "dataSource":{
+    "dialect":"MySQL",
+    "driver":"com.mysql.jdbc.Driver",
+    "url":"jdbc:mysql://maskmagician:3306/user?useUnicode=true&amp;characterEncoding=utf8",
+    "username":"root",
+    "password":"Qq@3264638"
+  },
+  "tables":[
+    {
+      "domainObjectName":"User",
+      "tableComment":"用户",
+      "tableName":"user",
+      "modulePackage":"com.mask.module.user",
+      "restMapping":"/user"
+    }
+  ]
+}
